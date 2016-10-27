@@ -1,0 +1,9 @@
+.catalog:
+  name: currency-converter-drone-ci
+  version: 0.1.0-22-52b0984e996074cb648106d66a8158775b5ed815
+  description: Currency converter api
+  questions:
+    - variable: api_key
+      label: API Token Salt
+      type: password
+      required: true
